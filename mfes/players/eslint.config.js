@@ -17,6 +17,12 @@ module.exports = [
   ...baseConfig,
   ...nx.configs['flat/react-typescript'],
   {
-    ignores: ['.next/**/*'],
+    ignores: [
+      '.next/**/*',
+      // public/ contains third-party static player assets (H5P libraries, etc.)
+      // that ship their own .eslintrc files with incompatible configs.
+      // ESLint must not scan them.
+      'public/**/*',
+    ],
   },
 ];
