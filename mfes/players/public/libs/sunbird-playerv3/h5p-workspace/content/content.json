@@ -1,0 +1,14 @@
+{
+    "title": "Sample PDF Document",
+    "documentFile": {
+        "path": "sample.pdf",
+        "mime": "application/pdf",
+        "copyright": {
+            "license": "U"
+        }
+    },
+    "authorMetadata": {
+        "author": "Sunbird Team",
+        "publisher": "W3C"
+    }
+}

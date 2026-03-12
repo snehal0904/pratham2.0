@@ -1,0 +1,15 @@
+{
+  "title": "EPUB Document Test",
+  "language": "en",
+  "mainLibrary": "Sunbird.DocumentReader",
+  "embedTypes": [
+    "div"
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "Sunbird.DocumentReader",
+      "majorVersion": "1",
+      "minorVersion": "0"
+    }
+  ]
+}

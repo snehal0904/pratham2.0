@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sunbird Player V3</title>
+  <!-- Paths changed from absolute (/assets/...) to relative (./assets/...) so the
+       player works when served from any base path, e.g. /sbplayer/libs/sunbird-playerv3/ -->
+  <script type="module" crossorigin src="./assets/index-DeGnmvmz.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BN3zvx7y.css">
+</head>
+
+<body>
+  <sunbird-h5p-player id="player">
+    <h1>Sunbird H5P Universal Wrapper</h1>
+  </sunbird-h5p-player>
+
+  <!-- Player config is injected by the host React component (SunbirdPlayerV3.tsx)
+       after the iframe loads, via:  iframe.contentDocument.getElementById('player').playerConfig = {...}
+       The hardcoded demo config has been removed to avoid overriding the real config. -->
+</body>
+
+</html>
