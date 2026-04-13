@@ -108,6 +108,11 @@ const Sidebar: React.FC<SidebarProps> = ({ selectedKey, onSelect }) => {
       key: 'bulk-import',
       icon: <UploadFileOutlinedIcon />,
     },
+    {
+      text: 'Course Import',
+      key: 'content-course-import',
+      icon: <UploadFileOutlinedIcon />,
+    },
     ...(isSCP
       ? [
           {
